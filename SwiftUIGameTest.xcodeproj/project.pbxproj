@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DAB2B3642BAE09EF00570DE6 /* SwiftUIGameTestApp.swift */,
-				DAB2B3732BAE0C5D00570DE6 /* Game */,
 				DAB2B3662BAE09EF00570DE6 /* GameView.swift */,
+				DAB2B3732BAE0C5D00570DE6 /* Game */,
 				DAB2B3682BAE09F000570DE6 /* Assets.xcassets */,
 				DAB2B36A2BAE09F000570DE6 /* SwiftUIGameTest.entitlements */,
 				DAB2B36B2BAE09F000570DE6 /* Preview Content */,
