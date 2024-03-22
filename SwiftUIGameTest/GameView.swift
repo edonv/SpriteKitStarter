@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GameView.swift
 //  SwiftUIGameTest
 //
 //  Created by Edon Valdman on 3/22/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    GameView()
 }
