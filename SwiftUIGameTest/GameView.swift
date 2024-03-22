@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct GameView: View {
+    private let scene = GameScene.newGameScene()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        SpriteView(
+            scene: scene,
+            transition: .crossFade(withDuration: 2),
+            isPaused: false,
+            preferredFramesPerSecond: 60,
+            options: .ignoresSiblingOrder,
+            debugOptions: [.showsFPS, .showsNodeCount]
+        )
+        .ignoresSafeArea()
     }
 }
 
